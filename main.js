@@ -8,10 +8,12 @@ let y = 0;
 const player = document.createElement("div");
 
 player.className = "player-object";
-player.style.width = "86px";
-player.style.height = "86px";
-player.style.backgroundColor = "#00a1ff73";
+player.style.width = "200px";
+player.style.height = "200px";
+// player.style.backgroundColor = "#00a1ff73";
 player.style.position = "relative";
+player.style.backgroundImage = "url('./assets/alien.png')";
+player.style.backgroundSize = "cover";
 
 gameContainer.append(player);
 
